@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import numpy as np
 
 A = np.array([[1, 2],
@@ -15,3 +16,23 @@ print(np.linalg.inv(A))
 print("Rank:")
 print(np.linalg.matrix_rank(A))
 
+=======
+
+import numpy as np
+
+A = np.array([[1, 2],
+              [3, 4]])
+
+print("Matrix:")
+print(A)
+
+print("Determinant:")
+print(np.linalg.det(A))
+
+print("Inverse:")
+print(np.linalg.inv(A))
+
+print("Rank:")
+print(np.linalg.matrix_rank(A))
+
+>>>>>>> 4098ce41ef549a7d219bbbf6155a8a8eacb0bca0
